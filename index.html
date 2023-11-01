@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cronometro</title>
+    <style>
+        .ocultar{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cronometro</h1>
+    </header>
+    <main>
+        <section>
+            <h3 id="display">0:0.0</h3>
+            <div id="control-0">
+                <button id="iniciar">Iniciar</button>
+            </div>
+            <div id="control-1" class="ocultar">
+                <button id="detener">Detener</button>
+                <button id="vuelta">Vuelta</button>
+            </div>
+            <div id="control-2" class="ocultar">
+                <button id="reiniciar">Reiniciar</button>
+                <button id="continuar">Continuar</button>
+            </div>
+        </section>
+        <section>
+            <ul id="lista"></ul>
+        </section>
+    </main>
+    <script src="./js/app.js" type="module"></script>
+</body>
+</html>
